@@ -1,0 +1,134 @@
+# =====================
+# OS files
+# =====================
+
+.DS_Store
+Thumbs.db
+
+
+# =====================
+# Rust
+# =====================
+
+target/
+Cargo.lock
+
+# Keep Cargo.lock for applications:
+# uncomment if building binaries
+#! Cargo.lock
+
+
+# =====================
+# IDE
+# =====================
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# =====================
+# Qt / C++
+# =====================
+
+build/
+cmake-build-*/
+*.user
+*.pro.user
+*.qmake.stash
+
+moc_*
+ui_*
+qrc_*
+
+
+# =====================
+# Python
+# =====================
+
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+
+.pytest_cache/
+.mypy_cache/
+
+
+# =====================
+# AI Models
+# =====================
+
+# Large models
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+models/
+
+
+# =====================
+# Data
+# =====================
+
+data/
+datasets/
+*.parquet
+*.jsonl
+
+
+# =====================
+# Databases
+# =====================
+
+*.db
+*.sqlite
+
+postgres_data/
+neo4j_data/
+
+
+# =====================
+# Logs
+# =====================
+
+*.log
+logs/
+
+
+# =====================
+# Build artifacts
+# =====================
+
+dist/
+release/
+out/
+
+
+# =====================
+# Docker
+# =====================
+
+docker-compose.override.yml
+
+
+# =====================
+# Environment
+# =====================
+
+.env
+.env.*
+
+
+# =====================
+# Temporary
+# =====================
+
+tmp/
+temp/
+.cache/

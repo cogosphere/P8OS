@@ -1,0 +1,46 @@
+name: ADR Sync
+
+
+on:
+
+  push:
+
+    paths:
+
+      - ".github/ADR/**"
+
+
+
+jobs:
+
+
+  sync:
+
+
+    runs-on: ubuntu-latest
+
+
+    steps:
+
+
+      - uses: actions/checkout@v5
+
+
+      - name: Sync ADR
+
+        run:
+
+          mkdir -p docs/adr
+
+          cp .github/ADR/*.md docs/adr/
+
+
+      - name: Commit changes
+
+        uses: stefanzweifel/git-auto-commit-action@v5
+
+        with:
+
+          commit_message:
+
+            "docs: sync ADR"

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 💬 GitHub Discussions
+    url: https://github.com/cogosphere/P8OS/discussions
+    about: Use Discussions for questions, ideas, research and architecture discussions.
+
+  - name: 📚 Documentation
+    url: https://github.com/cogosphere/P8OS/tree/main/docs
+    about: Read project documentation before creating an issue.
+
+  - name: 🔒 Security Issue
+    url: https://github.com/cogosphere/P8OS/security/advisories/new
+    about: Report security vulnerabilities privately.

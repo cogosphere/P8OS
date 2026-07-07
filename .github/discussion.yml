@@ -1,0 +1,39 @@
+version: 1
+
+discussion:
+
+  categories:
+
+    - name: Ideas
+      template: ideas.md
+      description: >
+        New concepts, improvements and future directions.
+
+    - name: Research
+      template: research.md
+      description: >
+        Scientific research, papers, algorithms and experiments.
+
+    - name: Architecture
+      template: architecture.md
+      description: >
+        System design and architectural decisions.
+
+    - name: Showcase
+      template: showcase.md
+      description: >
+        Demonstrations, examples and presentations.
+
+
+workflow:
+
+  promotion:
+
+    idea_to_research:
+      enabled: true
+
+    research_to_architecture:
+      enabled: true
+
+    architecture_to_rfc:
+      enabled: true

@@ -1,0 +1,55 @@
+# Global owners
+
+* @cogosphere
+
+
+# Core Architecture
+
+/docs/architecture/        @cogosphere
+/rfcs/                    @cogosphere
+
+
+# Cognitive Architecture
+
+/src/cognitive/           @cogosphere
+/src/thinking/            @cogosphere
+/src/memory/              @cogosphere
+
+
+# AI Engine
+
+/src/ai/
+src/models/
+src/embedding/
+src/rag/
+
+
+# Runtime
+
+/src/runtime/
+src/execution/
+
+
+# Storage
+
+/src/storage/
+
+
+# SDK
+
+/sdk/
+plugins/
+
+
+# GUI
+
+/gui/
+qml/
+cpp/
+
+
+# Infrastructure
+
+/.github/
+Dockerfile
+docker-compose.yml

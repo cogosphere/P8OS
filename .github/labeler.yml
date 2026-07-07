@@ -1,0 +1,26 @@
+research:
+  - "**/research/**"
+  - "**/*Research*"
+  - "**/*Theory*"
+
+architecture:
+  - "**/architecture/**"
+  - "**/*Architecture*"
+  - "**/*.md"
+
+documentation:
+  - "docs/**"
+  - "**/*.md"
+
+rust:
+  - "**/*.rs"
+
+python:
+  - "**/*.py"
+
+frontend:
+  - "**/*.qml"
+  - "**/*.cpp"
+
+github:
+  - ".github/**"

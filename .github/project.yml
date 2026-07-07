@@ -1,0 +1,66 @@
+project:
+
+  name: P8OS
+
+  type:
+    - research
+    - open-source
+    - artificial-intelligence
+    - cognitive-architecture
+
+
+governance:
+
+  discussions:
+    enabled: true
+
+  issues:
+    enabled: true
+
+  pull_requests:
+    required_reviewers: 2
+
+
+documentation:
+
+  root: docs/
+
+  standards:
+    - RFC
+    - ADR
+    - Architecture Document
+
+
+automation:
+
+  workflows:
+
+    - ci.yml
+    - docs.yml
+    - security.yml
+    - release.yml
+    - codeql.yml
+
+
+development:
+
+  languages:
+
+    primary:
+      - Rust
+
+    secondary:
+      - Python
+      - C++
+      - QML
+
+
+architecture:
+
+  layers:
+
+    - CBP-1
+    - Thinking Layer
+    - Memory Layer
+    - Runtime
+    - Self Evolution

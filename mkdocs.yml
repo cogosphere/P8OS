@@ -1,0 +1,100 @@
+site_name: P8OS Documentation
+
+site_description: >
+  P8OS Cognitive Operating System Documentation
+
+
+site_url: https://docs.cogosphere.org
+
+
+repo_url: https://github.com/cogosphere/P8OS
+
+repo_name: P8OS
+
+
+theme:
+
+  name: material
+
+  language: en
+
+  features:
+
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+
+
+markdown_extensions:
+
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+
+plugins:
+
+  - search
+
+
+nav:
+
+
+  - Home:
+      - index.md
+
+
+  - Architecture:
+
+      - Overview:
+          - architecture/overview.md
+
+      - Cognitive Architecture:
+          - architecture/cognitive_architecture.md
+
+      - Runtime:
+          - architecture/runtime.md
+
+      - Memory:
+          - architecture/memory.md
+
+
+  - Research:
+
+      - Overview:
+          - research/README.md
+
+      - Kolmogorov-Arnold:
+          - research/kolmogorov_arnold.md
+
+      - Memory Models:
+          - research/memory_models.md
+
+
+  - RFC:
+
+      - rfc/README.md
+
+
+  - ADR:
+
+      - adr/README.md
+
+
+  - Developer Guide:
+
+      - developer/setup.md
+
+      - developer/build.md
+
+      - developer/testing.md
+
+
+  - User Guide:
+
+      - user/installation.md
+
+      - user/usage.md

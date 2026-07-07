@@ -1,0 +1,65 @@
+changelog:
+
+  categories:
+
+
+    - title: 🚀 Features
+
+      labels:
+
+        - enhancement
+        - feature
+
+
+
+    - title: 🐛 Bug Fixes
+
+      labels:
+
+        - bug
+        - fix
+
+
+
+    - title: 🧠 Research
+
+      labels:
+
+        - research
+
+
+
+    - title: 🏗 Architecture
+
+      labels:
+
+        - architecture
+
+
+
+    - title: 📚 Documentation
+
+      labels:
+
+        - documentation
+
+
+
+    - title: 🔒 Security
+
+      labels:
+
+        - security
+
+
+
+    - title: ⚙️ Dependencies
+
+      labels:
+
+        - dependencies
+
+
+exclude-labels:
+
+  - skip-changelog
