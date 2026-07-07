@@ -18,7 +18,6 @@
 
 > An open cognitive infrastructure layer for building persistent, adaptive and explainable AI systems.
 </div>
-
 ---
 
 ## Overview

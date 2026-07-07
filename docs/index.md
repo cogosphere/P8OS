@@ -29,6 +29,17 @@ Execution
 Tools
 ```
 
+## Infrastructure
+
+The project infrastructure documentation:
+
+- [Cloudflare Architecture](infrastructure/Cloudflare-Architecture.md)
+- [GitHub CI/CD](infrastructure/GitHub-CI-CD.md)
+- [Vercel Deployment](infrastructure/Vercel-Deployment.md)
+- [Domain Architecture](infrastructure/Domain-Architecture.md)
+- [Free Tier Strategy](infrastructure/Free-Tier-Strategy.md)
+
+
 ## Documentation
 
 

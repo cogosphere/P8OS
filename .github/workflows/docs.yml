@@ -1,0 +1,28 @@
+name: Documentation Build
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate documentation structure
+        run: |
+          test -f docs/infrastructure/index.md
+          test -f docs/infrastructure/Cloudflare-Architecture.md
+          test -f docs/infrastructure/GitHub-CI-CD.md
+          test -f docs/infrastructure/Vercel-Deployment.md
+          test -f docs/infrastructure/Domain-Architecture.md
+          test -f docs/infrastructure/Free-Tier-Strategy.md
+
+      - name: Build documentation
+        run: |
+          echo "Documentation build placeholder"

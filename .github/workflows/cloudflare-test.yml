@@ -1,0 +1,25 @@
+name: Cloudflare Test
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name:
+        Check Cloudflare access
+
+      run:
+
+        npx wrangler whoami
+
+      env:
+
+        CLOUDFLARE_API_TOKEN:
+          ${{ secrets.CLOUDFLARE_API_TOKEN }}
