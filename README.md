@@ -1,6 +1,6 @@
 # P8OS
 
-# Open Cognitive Operating System
+# Open Cognitive Infrastructure for Autonomous Systems
 
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Language](https://img.shields.io/badge/language-Rust-orange)
@@ -13,7 +13,7 @@
 
 ## Overview
 
-P8OS is an open-source research and engineering project focused on creating a **Cognitive Operating System** for next-generation AI applications.
+P8OS is an open-source research and engineering project focused on creating a **Cognitive Infrastructure for Autonomous Systems** for next-generation AI applications.
 
 Current AI systems based on Large Language Models demonstrate powerful language abilities, but they still lack essential components required for persistent intelligence:
 
@@ -188,13 +188,49 @@ P8 Cognitive Instruction Architecture
 - Parquet
 - Vector Search
 
-## Interface
+## Platform Architecture
 
-- Qt 6
-- QML
-- REST API
-- IPC Layer
-- SDK
+P8OS is designed as an independent technology stack.
+
+External technologies may be integrated through abstraction layers, but the core architecture remains vendor-neutral.
+
+Core principle:
+
+"Own the architecture, abstract the dependencies."
+
+---
+
+# Technology Independence
+
+P8OS follows a vendor-neutral architecture approach.
+
+The project does not depend on proprietary platforms or commercial frameworks as a foundation.
+
+External technologies can be used only through well-defined abstraction layers.
+
+Examples:
+
+```text
+Application Layer
+|
+v
+P8OS SDK
+|
+v
+P8OS Core Runtime
+|
+|
++----------------+
+| Hardware Layer |
+| Backend Layer |
++----------------+
+    |
+    +---- Native P8OS implementations
+    |
+    +---- Optional external adapters
+```
+
+The long-term goal is to provide native implementations for all critical system components.
 
 ---
 
@@ -373,6 +409,15 @@ https://cogosphere.org
 Repository:
 
 https://github.com/
+
+---
+
+## Documentation
+
+- [Project Overview](docs/PROJECT_OVERVIEW_EN.md)
+- [Architecture](docs/architecture/)
+- [Research](docs/research/)
+- [Roadmap](docs/ROADMAP.md)
 
 ---
 
