@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="left">
   <h1><img src="https://avatars.githubusercontent.com/u/300135029?v=4&size=64" alt="Banner" width="24"> P8OS</h1>
 
@@ -11,13 +12,23 @@
 
 📚 [Documentation](docs)
 
+=======
+# P8OS
+
+# Open Cognitive Infrastructure for Autonomous Systems
+
+>>>>>>> origin/PUBLIC
 ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Language](https://img.shields.io/badge/language-Rust-orange)
 ![Status](https://img.shields.io/badge/status-research-green)
 ![AI](https://img.shields.io/badge/domain-Cognitive%20AI-purple)
 
 > An open cognitive infrastructure layer for building persistent, adaptive and explainable AI systems.
+<<<<<<< HEAD
 </div>
+=======
+
+>>>>>>> origin/PUBLIC
 ---
 
 ## Overview
@@ -306,7 +317,10 @@ In progress:
 ```text
 p8os/
 ├── docs/
+<<<<<<< HEAD
 │ ├── RU/
+=======
+>>>>>>> origin/PUBLIC
 │ ├── architecture/
 │ ├── research/
 │ └── specifications/
