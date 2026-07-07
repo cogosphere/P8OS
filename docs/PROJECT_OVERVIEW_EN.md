@@ -1,4 +1,4 @@
-# P8OS — Open Cognitive Operating System
+# P8OS — Open Cognitive Infrastructure for Autonomous Systems [OCI4AS]
 
 ## Building the Cognitive Infrastructure Layer for Next Generation AI Systems
 
@@ -9,7 +9,7 @@
 
 ## Abstract
 
-P8OS is an open-source cognitive operating system designed to provide the missing infrastructure layer between foundation models and autonomous intelligent systems.
+P8OS is OCI4AS designed to provide the missing infrastructure layer between foundation models and autonomous intelligent systems.
 
 Modern Large Language Models demonstrate impressive language capabilities, but they lack several fundamental components required for persistent intelligence:
 
@@ -132,35 +132,101 @@ P8 - Cognitive Instruction Architecture
 
 Current technology direction:
 
-## Core
+## Core Platform
+
+Primary development:
 
 * Rust
 * C/C++ interoperability
-* WebAssembly
+* WebAssembly support
+* Cross-platform runtime architecture
+
+Target environments:
+
+* macOS
+* Linux
+* Windows
+* Android
+* Embedded systems
+* Cloud environments
 
 ## AI Engine
 
-* GGUF Runtime
 * Embedding Engine
 * RAG
 * Fine-tuning adapters
 * Multi-model support
 
-## Storage
+AI Runtime Layer
+
+Native P8OS Model Runtime:
+
+* Model abstraction
+* Tensor execution interface
+* Embedding pipeline
+* Context engine
+
+Supported backends:
+
+* GGUF
+* ONNX
+* Other model formats
+
+## Storage Architecture
+
+Native P8OS Storage Layer:
+
+* Memory Graph
+* Knowledge Store
+* Vector Index
+* Versioned Memory System
+
+Optional adapters:
 
 * PostgreSQL
 * Neo4j
 * Redis
 * Parquet
-* Vector databases
 
-## Interface
+## Platform Architecture
 
-* Qt 6
-* QML
-* REST API
-* IPC Layer
-* SDK
+P8OS is designed as an independent technology stack.
+
+External technologies may be integrated through abstraction layers, but the core architecture remains vendor-neutral.
+
+Core principle:
+
+"Own the architecture, abstract the dependencies."
+
+## User Interface Layer
+
+P8OS provides its own GUI abstraction layer.
+
+The design separates:
+
+* Window management
+* Rendering
+* Scene system
+* Input events
+* Layout engine
+* Plugin system
+
+Possible implementations:
+
+* Native P8OS GUI backend
+* Platform-specific backends
+* Optional third-party adapters
+
+## Current Development Platform
+
+The initial P8OS development is performed on Apple Silicon hardware.
+
+This allows exploration of:
+
+- efficient local AI inference;
+- ARM-native computing;
+- hardware accelerated execution;
+- energy-efficient AI systems.
 
 ---
 
@@ -260,7 +326,7 @@ Project repository:
 
 Project website:
 
-https://cogosphere.org
+[https://cogosphere.org](https://cogosphere.org)
 
 ---
 
