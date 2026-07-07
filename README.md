@@ -70,7 +70,7 @@ Autonomous AI Systems
 
 P8OS is designed as a modular cognitive architecture.
 
-## Cognitive Base Protocol (CBP-1)
+## Cognitive Communication Layer
 
 The fundamental communication contract between cognitive components.
 
@@ -83,7 +83,7 @@ Responsibilities:
 
 ---
 
-## Knowledge Compiler (KC)
+## Knowledge Infrastructure
 
 A knowledge transformation pipeline.
 
