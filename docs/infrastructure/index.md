@@ -45,7 +45,7 @@ Role:
 
 Documentation:
 
-* [Cloudflare Architecture](Cloudflare-Architecture.md)
+* Cloudflare Architecture
 
 ---
 
@@ -61,7 +61,7 @@ Role:
 
 Documentation:
 
-* [GitHub CI/CD](GitHub-CI-CD.md)
+* GitHub CI/CD
 
 ---
 
@@ -75,7 +75,7 @@ Role:
 
 Documentation:
 
-* [Vercel Deployment](Vercel-Deployment.md)
+* Vercel Deployment
 
 ---
 
@@ -94,7 +94,7 @@ storage.cogosphere.org
 
 Documentation:
 
-* [Domain Architecture](Domain-Architecture.md)
+* Domain Architecture
 
 ---
 
@@ -108,7 +108,7 @@ The project uses free infrastructure where possible:
 
 Documentation:
 
-* [Free Tier Strategy](Free-Tier-Strategy.md)
+* Free Tier Strategy
 
 ---
 
