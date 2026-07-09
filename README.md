@@ -270,8 +270,8 @@ In progress:
 
 - [x] Architecture documentation
 - [x] Core specifications
-- [ ] Repository foundation
-- [ ] Development environment
+- [ ] Repository foundation 🔥
+- [ ] Development environment 🔥
 
 ---
 
