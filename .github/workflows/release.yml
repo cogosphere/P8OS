@@ -29,6 +29,6 @@ jobs:
 
             
       - name: Upload to Cloudflare R2
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           command: r2 object put
