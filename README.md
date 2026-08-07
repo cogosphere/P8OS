@@ -38,7 +38,7 @@ P8OS explores an architecture where AI systems can **remember, reason, learn, ev
 
 ---
 
-# Vision
+# [Vision](docs/P8OS_VISION_EN.md)
 
 The goal of P8OS is to create an open platform for building:
 
